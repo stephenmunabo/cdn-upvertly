@@ -57,7 +57,7 @@
             $("<link/>", {
                 rel: "stylesheet",
                 type: "text/css",
-                href: "css/fun.css"
+                href: "http://cdn.upvertly.com/upvertly/upvertly-lib.css"
             }).appendTo("head");
 
             var f = function() {
