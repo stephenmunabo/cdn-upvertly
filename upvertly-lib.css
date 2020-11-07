@@ -1,0 +1,127 @@
+.fun-wrapper {
+    border-radius: 61px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 360px;
+    height: 90px;
+    min-height: 70px;
+    padding-top: 14px;
+    padding-left: 66px;
+    position: absolute;
+    bottom: -130px;
+    left: 20px;
+    transition: .6s
+}
+
+.fun-wrapper {
+    line-height: .4;
+}
+
+.fun-wrapper span {
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+    font-family: Montserrat-Medium;
+    font-size: 11px;
+    color: #4A90E2;
+    letter-spacing: 0;
+}
+
+.fun-wrapper h3 {
+    font-family: Montserrat-Medium;
+    text-decoration: underline;
+    font-size: 17px;
+    color: #0A2D57;
+    letter-spacing: 0;
+}
+
+.fun-wrapper small {
+    font-family: Montserrat-Light;
+    font-size: 14px;
+    color: #9E9696;
+    letter-spacing: 0;
+}
+
+.fun-wrapper p {
+    font-family: Montserrat-Light;
+    margin-top: 6px!important;
+    font-size: 17px;
+    color: #686868;
+    letter-spacing: 0;
+}
+
+.funner {
+    z-index: 999999999999999 !important;
+    position: fixed !important;
+    bottom: 0px !important;
+    left: 20px;
+    right: auto;
+    height: 260px;
+    overflow: hidden;
+    width: 50%;
+}
+
+.slideUpper {
+    bottom: 30px!important;
+}
+
+.hideAway {
+    bottom: -260px;
+}
+
+.notification-wrapper2 {
+    border-radius: 61px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    height: auto;
+    min-height: 57px;
+    padding-top: 11px;
+    padding-left: 30px;
+    position: absolute;
+    bottom: -130px;
+    left: 20px;
+    transition: .6s;
+    line-height: .4;
+}
+
+.notification-wrapper2 h3 {
+    font-family: Montserrat-Medium;
+    font-size: 13px;
+    color: #C58A28;
+    height: auto;
+    letter-spacing: 0;
+}
+
+.notification-wrapper2 small {
+    font-family: Montserrat-Light;
+    font-size: 14px;
+    color: #9E9696;
+    letter-spacing: 0;
+}
+
+.notification-wrapper2 p {
+    margin-top: 6px!important;
+    font-family: Montserrat-Light;
+    font-size: 13px;
+    color: #686868;
+    letter-spacing: 0;
+}
+
+.notification-wrapper2 .t2 {
+    position: absolute;
+    right: 40px;
+    top: -12px;
+    font-family: Montserrat-Medium;
+    font-size: 8.8px;
+    color: #4A90E2;
+    letter-spacing: 0;
+}
+
+.notification-wrapper2 .time_ago {
+    font-family: Montserrat-Light;
+    font-size: 11px;
+    color: #9E9696;
+    letter-spacing: 0;
+    text-decoration: none;
+}
