@@ -56,6 +56,8 @@
                 $.getJSON(url, function(data) {
                       
                     var entry = data.feed.entry;
+
+                    console.log(entry);
                                       
                     $(entry).each(function(){
                     //make sure this matches your column labels when you change the source sheet
