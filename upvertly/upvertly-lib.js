@@ -4,7 +4,8 @@
                 var settings = $.extend({
                     template: "template2",
                     private: true,
-                    companyName: 'Upvertly'
+                    companyName: 'Upvertly',
+                    dataSheet: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9D_t3kKs4YBJdIio4K9HOU9frTbncTzlzmL_1T3dj0h_u39IEu1f2gfqVyoN5M58vN1LlW2SJhD8o/pubhtml',
                 }, options)
 
 
@@ -12,6 +13,7 @@
                             const template = settings.template;
 
                             $(this).append(function() {
+                                getDataFromSheet(settings.dataSheet);
                                 return selectTemplate(template);
                             });
 
@@ -50,6 +52,18 @@
                 }
             }
 
+            function getDataFromSheet(url){
+                $.getJSON(url, function(data) {
+                      
+                    var entry = data.feed.entry;
+                                      
+                    $(entry).each(function(){
+                    //make sure this matches your column labels when you change the source sheet
+                    $('.results').prepend('<h2>'+this.gsx$title.$t+'</h2><p>'+this.gsx$url.$t+'</p>');
+                      });
+                                      
+                 });
+            }
 
 
 
